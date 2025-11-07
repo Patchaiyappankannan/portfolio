@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Roboto:wght@100;400;500;900&display=swap');
 
 :root {
-    --primary: #29e9bc;
-    --primary-dark: #1db894;
-    --primary-light: #4df5d0;
+    --primary: #3b82f6;
+    --primary-dark: #2563eb;
+    --primary-light: #60a5fa;
     --normal: #333333;
     --black: #ffffff;
     --bg: #ffffff;
@@ -14,7 +14,7 @@
     --glass-border: rgba(0, 0, 0, 0.1);
     --shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
     --shadow-lg: 0 20px 60px rgba(0, 0, 0, 0.15);
-    --shadow-primary: 0 8px 32px rgba(41, 233, 188, 0.2);
+    --shadow-primary: 0 8px 32px rgba(59, 130, 246, 0.2);
 
     --container-width-lg: 80%;
     --container-width-md: 90%;
@@ -54,7 +54,7 @@
 
 ::-webkit-scrollbar-thumb:hover {
     background: linear-gradient(180deg, var(--primary-light) 0%, var(--primary) 100%);
-    box-shadow: 0 0 10px rgba(41, 233, 188, 0.5);
+    box-shadow: 0 0 10px rgba(59, 130, 246, 0.5);
 }
 
 body {
@@ -74,8 +74,8 @@ body::before {
     width: 100%;
     height: 100%;
     background: 
-        radial-gradient(circle at 20% 50%, rgba(41, 233, 188, 0.05) 0%, transparent 50%),
-        radial-gradient(circle at 80% 80%, rgba(41, 233, 188, 0.03) 0%, transparent 50%);
+        radial-gradient(circle at 20% 50%, rgba(59, 130, 246, 0.05) 0%, transparent 50%),
+        radial-gradient(circle at 80% 80%, rgba(59, 130, 246, 0.03) 0%, transparent 50%);
     pointer-events: none;
     z-index: 0;
 }
@@ -160,7 +160,7 @@ img {
     color: var(--primary);
     background: transparent;
     border-color: var(--primary);
-    box-shadow: 0 0 20px rgba(41, 233, 188, 0.5);
+    box-shadow: 0 0 20px rgba(59, 130, 246, 0.5);
     transform: translateY(-2px);
 }
 
@@ -195,7 +195,7 @@ img {
     transform: translateX(-50%);
     width: 120px;
     height: 1px;
-    background: rgba(41, 233, 188, 0.3);
+    background: rgba(59, 130, 246, 0.3);
 }
 
 nav {
@@ -434,7 +434,7 @@ header::before {
     left: -50%;
     width: 200%;
     height: 200%;
-    background: linear-gradient(45deg, transparent, rgba(41, 233, 188, 0.3), transparent);
+    background: linear-gradient(45deg, transparent, rgba(59, 130, 246, 0.3), transparent);
     animation: rotate 3s linear infinite;
     z-index: -1;
 }
@@ -491,7 +491,7 @@ header::before {
 }
 
 .services_container .cards .card {
-    background: linear-gradient(135deg, rgba(41, 233, 188, 0.1) 0%, rgba(41, 233, 188, 0.05) 100%);
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.1) 0%, rgba(59, 130, 246, 0.05) 100%);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border: 1px solid var(--glass-border);
@@ -523,7 +523,7 @@ header::before {
     width: 5rem;
     height: 5rem;
     color: var(--primary);
-    background: rgba(41, 233, 188, 0.1);
+    background: rgba(59, 130, 246, 0.1);
     border: 2px solid var(--primary);
     border-radius: 50%;
     padding: 14px;
@@ -566,7 +566,7 @@ header::before {
     background: var(--primary);
     color: var(--black);
     transform: translateX(5px);
-    box-shadow: 0 5px 15px rgba(41, 233, 188, 0.4);
+    box-shadow: 0 5px 15px rgba(59, 130, 246, 0.4);
 }
 
 .services_container .cards .card:hover {
@@ -641,7 +641,7 @@ header::before {
     left: 50%;
     width: 0;
     height: 0;
-    background: radial-gradient(circle, rgba(41, 233, 188, 0.2) 0%, transparent 70%);
+    background: radial-gradient(circle, rgba(59, 130, 246, 0.2) 0%, transparent 70%);
     border-radius: 50%;
     transform: translate(-50%, -50%);
     transition: width 0.5s, height 0.5s;
@@ -904,7 +904,7 @@ header::before {
 
 .experience_item:hover {
     border-color: var(--primary);
-    background: rgba(41, 233, 188, 0.08);
+    background: rgba(59, 130, 246, 0.08);
     transform: translateY(-5px);
     box-shadow: var(--shadow-lg), var(--shadow-primary);
 }
@@ -982,7 +982,7 @@ header::before {
 
 .education_item:hover {
     border-color: var(--primary);
-    background: rgba(41, 233, 188, 0.08);
+    background: rgba(59, 130, 246, 0.08);
     transform: translateY(-5px);
     box-shadow: var(--shadow-lg), var(--shadow-primary);
 }
@@ -1071,7 +1071,7 @@ header::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(135deg, rgba(41, 233, 188, 0.3) 0%, transparent 100%);
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.3) 0%, transparent 100%);
     opacity: 0;
     transition: opacity 0.3s ease;
     z-index: 1;
@@ -1124,7 +1124,7 @@ header::before {
 
 .course:hover {
     border-color: var(--primary);
-    background: rgba(41, 233, 188, 0.08);
+    background: rgba(59, 130, 246, 0.08);
     transform: translateY(-10px);
     box-shadow: var(--shadow-lg), var(--shadow-primary);
 }
@@ -1178,7 +1178,7 @@ header::before {
 
 .faq:hover {
     border-color: var(--primary);
-    background: rgba(41, 233, 188, 0.1);
+    background: rgba(59, 130, 246, 0.1);
     transform: translateX(5px);
 }
 
@@ -1222,10 +1222,17 @@ footer {
 
 .footer_container > div h4 {
     margin-bottom: 1.2rem;
+    color: rgba(255, 255, 255, 0.95);
 }
 
 .footer_1 p {
     margin: 0 0 2rem;
+    color: var(--bg);
+}
+
+.footer_1 p a {
+    color: rgba(255, 255, 255, 0.9);
+    transition: all 0.3s ease;
 }
 
 .footer_1 p a:hover {
@@ -1237,6 +1244,11 @@ footer ul li {
     margin-bottom: 0.7rem;
 }
 
+footer ul li a {
+    color: rgba(255, 255, 255, 0.9);
+    transition: all 0.3s ease;
+}
+
 footer ul li a:hover {
     text-decoration: underline;
     color: var(--primary);
@@ -1246,9 +1258,24 @@ footer ul li a:hover {
     text-transform: lowercase;
 }
 
+.footer_4 .mail a {
+    color: rgba(255, 255, 255, 0.9);
+    transition: all 0.3s ease;
+}
+
 .footer_4 .mail a:hover{
     text-decoration: underline;
     color: var(--primary);
+}
+
+.footer_4 p {
+    color: var(--bg);
+    margin-bottom: 0.5rem;
+}
+
+.footer_4 p i {
+    color: rgba(255, 255, 255, 0.9);
+    margin-right: 0.5rem;
 }
 
 .footer_social {
@@ -1264,10 +1291,11 @@ footer ul li a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: var(--glass-bg);
-    border: 1px solid var(--glass-border);
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 50%;
     transition: all 0.3s ease;
+    color: rgba(255, 255, 255, 0.9);
 }
 
 .footer_social li a:hover {
@@ -1310,7 +1338,7 @@ footer ul li a:hover {
 
 .back-to-top:hover {
     transform: translateY(-5px);
-    box-shadow: 0 10px 30px rgba(41, 233, 188, 0.5);
+    box-shadow: 0 10px 30px rgba(59, 130, 246, 0.5);
     background: var(--primary-light);
 }
 
@@ -1358,7 +1386,7 @@ footer ul li a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(135deg, rgba(41, 233, 188, 0.2) 0%, rgba(41, 233, 188, 0.1) 100%);
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.2) 0%, rgba(59, 130, 246, 0.1) 100%);
     border: 2px solid var(--primary);
     border-radius: 50%;
     color: var(--primary);
@@ -1413,7 +1441,7 @@ footer ul li a:hover {
     outline: none;
     border-color: var(--primary);
     background: rgba(255, 255, 255, 0.08);
-    box-shadow: 0 0 20px rgba(41, 233, 188, 0.2);
+    box-shadow: 0 0 20px rgba(59, 130, 246, 0.2);
 }
 
 .form-group input::placeholder,
@@ -1456,7 +1484,7 @@ footer ul li a:hover {
 
 .btn-submit:hover {
     transform: translateY(-3px);
-    box-shadow: 0 10px 30px rgba(41, 233, 188, 0.5);
+    box-shadow: 0 10px 30px rgba(59, 130, 246, 0.5);
 }
 
 .btn-submit i {
@@ -1473,7 +1501,7 @@ footer ul li a:hover {
     padding: 1.5rem 0;
     border-top: 2px solid var(--primary);
     border-bottom: 2px solid var(--primary);
-    background: linear-gradient(135deg, rgba(41, 233, 188, 0.1) 0%, rgba(41, 233, 188, 0.05) 100%);
+    background: linear-gradient(135deg, rgba(59, 130, 246, 0.1) 0%, rgba(59, 130, 246, 0.05) 100%);
     position: relative;
 }
 
@@ -1484,7 +1512,7 @@ footer ul li a:hover {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(41, 233, 188, 0.1), transparent);
+    background: linear-gradient(90deg, transparent, rgba(59, 130, 246, 0.1), transparent);
     animation: shimmer 3s infinite;
 }
 
@@ -1502,7 +1530,7 @@ footer ul li a:hover {
     font-weight: 600;
     font-size: 1rem;
     letter-spacing: 1px;
-    text-shadow: 0 0 10px rgba(41, 233, 188, 0.5);
+    text-shadow: 0 0 10px rgba(59, 130, 246, 0.5);
     position: relative;
     z-index: 1;
     display: block;
@@ -1584,7 +1612,7 @@ footer ul li a:hover {
         opacity: 0;
     }
     .nav_menu li a{
-        background-color:#29e9bcf8;
+        background-color:rgba(59, 130, 246, 0.97);
         box-shadow: -4rem 6rem 10rem rgba(0,0,0,0.6);
         width: 100%;
         height: 100%;
